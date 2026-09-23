@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ant Media P2P</string>
+    <string name="close_app">Close application</string>
+    <string name="server_url_label">Ant Media WebSocket URL</string>
+    <string name="server_url_hint">wss://server:5443/WebRTCAppEE/websocket</string>
+    <string name="default_server_url" translatable="false">wss://ovh36.antmedia.io:5443/live/websocket</string>
+    <string name="room_id_label">Stream ID</string>
+    <string name="room_id_hint">stream1</string>
+    <string name="default_room_id" translatable="false">stream1</string>
+    <string name="join_peer">Join Peer</string>
+    <string name="leave_peer">Leave Peer</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_permission_required">Camera and microphone permissions are required</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_waiting">Joined; waiting for the other peer…</string>
+    <string name="status_connected">Peer connection established</string>
+    <string name="status_disconnected">Connection disconnected</string>
+    <string name="status_left">Left the peer connection</string>
+    <string name="error_empty_fields">Server URL and stream ID cannot be empty.</string>
+    <string name="error_invalid_url">Server URL must start with ws:// or wss://.</string>
+    <string name="error_prefix">Error: %1$s</string>
+</resources>
